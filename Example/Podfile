@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SmartBookingCategory_Tests' do
+  pod 'SmartBookingCategory', :path => '../'
+  
+  
+end
