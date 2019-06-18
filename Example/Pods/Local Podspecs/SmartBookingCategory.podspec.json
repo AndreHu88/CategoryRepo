@@ -1,0 +1,22 @@
+{
+  "name": "SmartBookingCategory",
+  "version": "0.1.0",
+  "summary": "A short description of SmartBookingCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jack Hu/SmartBookingCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jack Hu": "229376483@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Jack Hu/SmartBookingCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SmartBookingCategory/Classes/**/*"
+}

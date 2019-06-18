@@ -1,0 +1,16 @@
+PODS:
+  - SmartBookingCategory (0.1.0)
+
+DEPENDENCIES:
+  - SmartBookingCategory (from `../`)
+
+EXTERNAL SOURCES:
+  SmartBookingCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SmartBookingCategory: 1543d74243007ab6f98bafb25c354c11e5ded152
+
+PODFILE CHECKSUM: 94ee9c4f8e5c842540634df77d2c2f3e83901520
+
+COCOAPODS: 1.7.0.rc.1

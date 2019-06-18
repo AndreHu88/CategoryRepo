@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0291032AB90329C14E8259B591E4DD9B /* Pods-SmartBookingCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F94617B3159E33862A793582023A9B6 /* Pods-SmartBookingCategory_Tests-dummy.m */; };
+		13B5047954CFEDC7301AFBD1EA4CDA90 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D32A4351164F224B467987FF0F57B2 /* String+Extension.swift */; };
+		2F860603470E9034FB07E3644B4E8911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8167D64EBCD5064297F5871726ED6D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8E2A26760825E929A1355EC177E6FE65 /* URL+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575B02CC8D88F04A7BDC5FA6544A2E6 /* URL+Extension.swift */; };
+		91297E605CC2F9C0697A7C34ECF133C1 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793F0025512027EE876A879463A90CDF /* Date+Extension.swift */; };
+		A37585CD0392A9C74F89EA69A9489948 /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1AE8C1768522A2815BBDDAA0E9B3DE /* NSObject+Extension.swift */; };
+		C68D1E51DC8B6AA8945560428A47D75A /* SmartBookingCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3D79B363FF3025EF7D6667303E541E /* SmartBookingCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDFDEEAD00BD29A5F4D705A5B92C1909 /* SmartBookingCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21446CFFB7E803FC7D5D16B6F183C1CB /* SmartBookingCategory-dummy.m */; };
+		D487C05124268B415A7656DADEE8A470 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D8AD3CA65FF22825F2AA500111E767 /* NSDate+Extension.swift */; };
+		F51C9A83C8A6D7A68E45111B75F086F9 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383CA51C6C84E1893E88A56FDD716B18 /* Bundle+Extension.swift */; };
+		FE30EAF2EE8BF4BA468B40ED88C06759 /* Pods-SmartBookingCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DFE1C7DAB476BF68D88DD6F5395C1975 /* Pods-SmartBookingCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7C14CD5540ABEB1509BAC322C2CBDB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EEDBC8A535BB1A009A0D7AB214939B3;
+			remoteInfo = SmartBookingCategory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3D79B363FF3025EF7D6667303E541E /* SmartBookingCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartBookingCategory-umbrella.h"; sourceTree = "<group>"; };
+		0DB55EAC61BDAB3003EF96367459D98B /* SmartBookingCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SmartBookingCategory-Info.plist"; sourceTree = "<group>"; };
+		21446CFFB7E803FC7D5D16B6F183C1CB /* SmartBookingCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SmartBookingCategory-dummy.m"; sourceTree = "<group>"; };
+		2480FC8A3A63D7B208767B6BE823AF14 /* Pods-SmartBookingCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartBookingCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		290AC0ABAE4095E72C6A15940B61E45E /* SmartBookingCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SmartBookingCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2F1AE8C1768522A2815BBDDAA0E9B3DE /* NSObject+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Extension.swift"; path = "SmartBookingCategory/Classes/NSObject+Extension.swift"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		383CA51C6C84E1893E88A56FDD716B18 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "SmartBookingCategory/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		5575B02CC8D88F04A7BDC5FA6544A2E6 /* URL+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+Extension.swift"; path = "SmartBookingCategory/Classes/URL+Extension.swift"; sourceTree = "<group>"; };
+		5C62D4A7FC98E229BA792FE3101D67E5 /* SmartBookingCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SmartBookingCategory-prefix.pch"; sourceTree = "<group>"; };
+		6414475D7A5429BBFD2B44DD86BC9D73 /* SmartBookingCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SmartBookingCategory.framework; path = SmartBookingCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B51529B64BF3888ED384C1CFF44152 /* Pods-SmartBookingCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartBookingCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74EDF3C3DE9F37B523939525D343BFF0 /* Pods-SmartBookingCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SmartBookingCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		75577169D7BB0FB990AA3B21660B92AF /* SmartBookingCategory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SmartBookingCategory.xcconfig; sourceTree = "<group>"; };
+		7646F200A311DC662C7C483EC4E9040F /* Pods-SmartBookingCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartBookingCategory_Tests-Info.plist"; sourceTree = "<group>"; };
+		793F0025512027EE876A879463A90CDF /* Date+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Extension.swift"; path = "SmartBookingCategory/Classes/Date+Extension.swift"; sourceTree = "<group>"; };
+		894EF6A66F5AD9A7938D3A0DC7B95D5A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9663072757C4C33BB409FFAEF8B67A03 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F94617B3159E33862A793582023A9B6 /* Pods-SmartBookingCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartBookingCategory_Tests-dummy.m"; sourceTree = "<group>"; };
+		A7D8AD3CA65FF22825F2AA500111E767 /* NSDate+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSDate+Extension.swift"; path = "SmartBookingCategory/Classes/NSDate+Extension.swift"; sourceTree = "<group>"; };
+		B692FF3D8D64790E12CCFAA5AFE50AD4 /* Pods-SmartBookingCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartBookingCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C63BD95F227E3E6005C820501053610C /* Pods-SmartBookingCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartBookingCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DFE1C7DAB476BF68D88DD6F5395C1975 /* Pods-SmartBookingCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartBookingCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E0D32A4351164F224B467987FF0F57B2 /* String+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extension.swift"; path = "SmartBookingCategory/Classes/String+Extension.swift"; sourceTree = "<group>"; };
+		E7316010B13423513E77B1C2BA2C9FE4 /* Pods-SmartBookingCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartBookingCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECFE2A9C07B3F2DDD08A31666B44812E /* Pods_SmartBookingCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SmartBookingCategory_Tests.framework; path = "Pods-SmartBookingCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AA8E70C480F29A1E7793CEAB1822BB /* SmartBookingCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SmartBookingCategory.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		548FA170D64CDAB3FD11295E1D3B92F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F860603470E9034FB07E3644B4E8911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A40BD9ED540BF8CAE724B1EB7497E77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8167D64EBCD5064297F5871726ED6D2A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BA5B72AA75738C747FC6078E279A30B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FE7ECDBEBBD96489BF8D65A954CD9A /* SmartBookingCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		2D97A4F42BEBD33D81015C65ABC1FFBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C92813C626500C471243F4349211D308 /* Pods-SmartBookingCategory_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A0F352177D6EE1E97520AC7243D61B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AA8E70C480F29A1E7793CEAB1822BB /* SmartBookingCategory.modulemap */,
+				75577169D7BB0FB990AA3B21660B92AF /* SmartBookingCategory.xcconfig */,
+				21446CFFB7E803FC7D5D16B6F183C1CB /* SmartBookingCategory-dummy.m */,
+				0DB55EAC61BDAB3003EF96367459D98B /* SmartBookingCategory-Info.plist */,
+				5C62D4A7FC98E229BA792FE3101D67E5 /* SmartBookingCategory-prefix.pch */,
+				0B3D79B363FF3025EF7D6667303E541E /* SmartBookingCategory-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SmartBookingCategory";
+			sourceTree = "<group>";
+		};
+		7B434092A104577C333C22D5D43FDD0C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9663072757C4C33BB409FFAEF8B67A03 /* LICENSE */,
+				894EF6A66F5AD9A7938D3A0DC7B95D5A /* README.md */,
+				290AC0ABAE4095E72C6A15940B61E45E /* SmartBookingCategory.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A423697BD99491143F4CC561018862F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE2A9C07B3F2DDD08A31666B44812E /* Pods_SmartBookingCategory_Tests.framework */,
+				6414475D7A5429BBFD2B44DD86BC9D73 /* SmartBookingCategory.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C92813C626500C471243F4349211D308 /* Pods-SmartBookingCategory_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				74EDF3C3DE9F37B523939525D343BFF0 /* Pods-SmartBookingCategory_Tests.modulemap */,
+				68B51529B64BF3888ED384C1CFF44152 /* Pods-SmartBookingCategory_Tests-acknowledgements.markdown */,
+				E7316010B13423513E77B1C2BA2C9FE4 /* Pods-SmartBookingCategory_Tests-acknowledgements.plist */,
+				9F94617B3159E33862A793582023A9B6 /* Pods-SmartBookingCategory_Tests-dummy.m */,
+				2480FC8A3A63D7B208767B6BE823AF14 /* Pods-SmartBookingCategory_Tests-frameworks.sh */,
+				7646F200A311DC662C7C483EC4E9040F /* Pods-SmartBookingCategory_Tests-Info.plist */,
+				DFE1C7DAB476BF68D88DD6F5395C1975 /* Pods-SmartBookingCategory_Tests-umbrella.h */,
+				B692FF3D8D64790E12CCFAA5AFE50AD4 /* Pods-SmartBookingCategory_Tests.debug.xcconfig */,
+				C63BD95F227E3E6005C820501053610C /* Pods-SmartBookingCategory_Tests.release.xcconfig */,
+			);
+			name = "Pods-SmartBookingCategory_Tests";
+			path = "Target Support Files/Pods-SmartBookingCategory_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2BA5B72AA75738C747FC6078E279A30B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A423697BD99491143F4CC561018862F5 /* Products */,
+				2D97A4F42BEBD33D81015C65ABC1FFBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FE7ECDBEBBD96489BF8D65A954CD9A /* SmartBookingCategory */ = {
+			isa = PBXGroup;
+			children = (
+				383CA51C6C84E1893E88A56FDD716B18 /* Bundle+Extension.swift */,
+				793F0025512027EE876A879463A90CDF /* Date+Extension.swift */,
+				A7D8AD3CA65FF22825F2AA500111E767 /* NSDate+Extension.swift */,
+				2F1AE8C1768522A2815BBDDAA0E9B3DE /* NSObject+Extension.swift */,
+				E0D32A4351164F224B467987FF0F57B2 /* String+Extension.swift */,
+				5575B02CC8D88F04A7BDC5FA6544A2E6 /* URL+Extension.swift */,
+				7B434092A104577C333C22D5D43FDD0C /* Pod */,
+				3A0F352177D6EE1E97520AC7243D61B1 /* Support Files */,
+			);
+			name = SmartBookingCategory;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D7912ED180D65A80A4ED5EA98448F13 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE30EAF2EE8BF4BA468B40ED88C06759 /* Pods-SmartBookingCategory_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE93AC3E01B3780B01FB9633509B0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68D1E51DC8B6AA8945560428A47D75A /* SmartBookingCategory-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22F93185A79C43FAAE6F83FE08AB69F9 /* Pods-SmartBookingCategory_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78D3342153CFDF4DFF3373B514C470CE /* Build configuration list for PBXNativeTarget "Pods-SmartBookingCategory_Tests" */;
+			buildPhases = (
+				2D7912ED180D65A80A4ED5EA98448F13 /* Headers */,
+				2F8013271D944C15ECD469ED84EB1EEE /* Sources */,
+				9A40BD9ED540BF8CAE724B1EB7497E77 /* Frameworks */,
+				A4DC99372105979713828F8E83DDB38A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CD67611685CD4D66DD5A5B9A219D1E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartBookingCategory_Tests";
+			productName = "Pods-SmartBookingCategory_Tests";
+			productReference = ECFE2A9C07B3F2DDD08A31666B44812E /* Pods_SmartBookingCategory_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EEDBC8A535BB1A009A0D7AB214939B3 /* SmartBookingCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E7E2542A1956A61ECAA2FB415804887 /* Build configuration list for PBXNativeTarget "SmartBookingCategory" */;
+			buildPhases = (
+				9CE93AC3E01B3780B01FB9633509B0D3 /* Headers */,
+				6B6BC52C85F38187ADD90A1F8CC2DE2F /* Sources */,
+				548FA170D64CDAB3FD11295E1D3B92F4 /* Frameworks */,
+				44F2E60672850F1E9BCADD0C35594528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBookingCategory;
+			productName = SmartBookingCategory;
+			productReference = 6414475D7A5429BBFD2B44DD86BC9D73 /* SmartBookingCategory.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A423697BD99491143F4CC561018862F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F93185A79C43FAAE6F83FE08AB69F9 /* Pods-SmartBookingCategory_Tests */,
+				4EEDBC8A535BB1A009A0D7AB214939B3 /* SmartBookingCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44F2E60672850F1E9BCADD0C35594528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4DC99372105979713828F8E83DDB38A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8013271D944C15ECD469ED84EB1EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0291032AB90329C14E8259B591E4DD9B /* Pods-SmartBookingCategory_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B6BC52C85F38187ADD90A1F8CC2DE2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F51C9A83C8A6D7A68E45111B75F086F9 /* Bundle+Extension.swift in Sources */,
+				91297E605CC2F9C0697A7C34ECF133C1 /* Date+Extension.swift in Sources */,
+				D487C05124268B415A7656DADEE8A470 /* NSDate+Extension.swift in Sources */,
+				A37585CD0392A9C74F89EA69A9489948 /* NSObject+Extension.swift in Sources */,
+				CDFDEEAD00BD29A5F4D705A5B92C1909 /* SmartBookingCategory-dummy.m in Sources */,
+				13B5047954CFEDC7301AFBD1EA4CDA90 /* String+Extension.swift in Sources */,
+				8E2A26760825E929A1355EC177E6FE65 /* URL+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CD67611685CD4D66DD5A5B9A219D1E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SmartBookingCategory;
+			target = 4EEDBC8A535BB1A009A0D7AB214939B3 /* SmartBookingCategory */;
+			targetProxy = A7C14CD5540ABEB1509BAC322C2CBDB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7ACDA5CB34777009C2364575FABAF629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C63BD95F227E3E6005C820501053610C /* Pods-SmartBookingCategory_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartBookingCategory_Tests/Pods-SmartBookingCategory_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartBookingCategory_Tests/Pods-SmartBookingCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		833C5CF0971D989A31A2D215250E129D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75577169D7BB0FB990AA3B21660B92AF /* SmartBookingCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartBookingCategory/SmartBookingCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartBookingCategory/SmartBookingCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartBookingCategory/SmartBookingCategory.modulemap";
+				PRODUCT_MODULE_NAME = SmartBookingCategory;
+				PRODUCT_NAME = SmartBookingCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D9527B3D918F72842D5DAE9B4B92BDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75577169D7BB0FB990AA3B21660B92AF /* SmartBookingCategory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SmartBookingCategory/SmartBookingCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SmartBookingCategory/SmartBookingCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SmartBookingCategory/SmartBookingCategory.modulemap";
+				PRODUCT_MODULE_NAME = SmartBookingCategory;
+				PRODUCT_NAME = SmartBookingCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D97A7F02803130CBB47E16F9DFE9C534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B692FF3D8D64790E12CCFAA5AFE50AD4 /* Pods-SmartBookingCategory_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartBookingCategory_Tests/Pods-SmartBookingCategory_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartBookingCategory_Tests/Pods-SmartBookingCategory_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E7E2542A1956A61ECAA2FB415804887 /* Build configuration list for PBXNativeTarget "SmartBookingCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9527B3D918F72842D5DAE9B4B92BDC6 /* Debug */,
+				833C5CF0971D989A31A2D215250E129D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78D3342153CFDF4DFF3373B514C470CE /* Build configuration list for PBXNativeTarget "Pods-SmartBookingCategory_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D97A7F02803130CBB47E16F9DFE9C534 /* Debug */,
+				7ACDA5CB34777009C2364575FABAF629 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
