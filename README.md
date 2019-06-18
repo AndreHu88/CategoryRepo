@@ -27,3 +27,5 @@ Jack Hu, 229376483@qq.com
 ## License
 
 SmartBookingCategory is available under the MIT license. See the LICENSE file for more info.
+=======
+# CategoryRepo

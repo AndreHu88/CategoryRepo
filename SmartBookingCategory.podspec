@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'this is a category repository'
 
-  s.homepage         = 'https://github.com/Jack Hu/SmartBookingCategory'
+  s.homepage         = 'https://github.com/AndreHu88/CategoryRepo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jack Hu' => '229376483@qq.com' }
-  s.source           = { :git => 'https://github.com/Jack Hu/SmartBookingCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AndreHu88/CategoryRepo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
